@@ -10,6 +10,10 @@ const nextConfig = {
         source: "/s/:path*",
         destination: "https://www.youtube.com/s/:path*",
       },
+      {
+        source: "/youtubei/:path*",
+        destination: "https://www.youtube.com/youtubei/:path*",
+      },
     ];
   },
   reactStrictMode: true,
