@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/about2",
-        destination: "https://www.youtube.com/watch?v=R59e1Vl5lO8",
+        destination: "https://www.youtube.com/embed/tgbNymZ7vqY",
       },
     ];
   },
