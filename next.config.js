@@ -7,8 +7,8 @@ const nextConfig = {
         destination: "https://www.youtube.com/embed/tgbNymZ7vqY",
       },
       {
-        source: "/s/player/293baa5d/www-player.css",
-        destination: "https://www.youtube.com/s/player/293baa5d/www-player.css",
+        source: "/s/:path*",
+        destination: "https://www.youtube.com/s/:path*",
       },
     ];
   },
